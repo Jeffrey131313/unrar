@@ -2,7 +2,7 @@ import os
 import subprocess
 import requests
 from appdirs import user_data_dir
-from .rar import unrar
+from .autounrar import unrar
 
 __all__ = ['unrar']
 

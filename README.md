@@ -1,23 +1,23 @@
 ---
 
-# Unrar - 自动解压 RAR 压缩包的 Python 库  
-# Unrar - Automatically Unrar RAR Archives in Python
+# autounrar - 自动解压 RAR 压缩包的 Python 库  
+# autounrar - Automatically Unrar RAR Archives in Python
 
 ---
 
 ## 简介 / Introduction  
-`unrar` 是一个 Python 库，旨在简化 RAR 压缩包的处理。它会自动下载 `unrar.exe`，并使用它来解压 RAR 压缩包或列出压缩包中的文件列表。无需手动安装或配置 `unrar.exe`，所有操作均可通过 Python 脚本完成。
+`autounrar` 是一个 Python 库，旨在简化 RAR 压缩包的处理。它会自动下载 `unrar.exe`，并使用它来解压 RAR 压缩包或列出压缩包中的文件列表。无需手动安装或配置 `unrar.exe`，所有操作均可通过 Python 脚本完成。
 
-`unrar` is a Python library designed to simplify handling RAR archives. It automatically downloads `unrar.exe` and uses it to extract RAR archives or list their contents. No need to manually install or configure `unrar.exe`; all operations can be done via Python scripts.
+`autounrar` is a Python library designed to simplify handling RAR archives. It automatically downloads `unrar.exe` and uses it to extract RAR archives or list their contents. No need to manually install or configure `unrar.exe`; all operations can be done via Python scripts.
 
 ---
 
 ## 安装 / Installation  
-通过 pip 安装 `unrar`：  
-Install `unrar` via pip:  
+通过 pip 安装 `autounrar`：  
+Install `autounrar` via pip:  
 
 ```bash
-pip install unrar
+pip install autounrar
 ```
 
 ---
@@ -25,7 +25,7 @@ pip install unrar
 ## 使用示例 / Usage Example  
 
 ```python
-from unrar import unrar
+from autounrar import unrar
 
 # 列出RAR压缩包中的文件 / List files in the RAR archive  
 file_list = unrar.list('example.rar')  
