@@ -7,8 +7,8 @@ data_dir = user_data_dir("unrar", "unrar_exe")
 class unrar:
     @staticmethod
     def extract(file_path, to_path=False, password=False):
-        if not os.path.exists(to_path):
-            os.mkdir(to_path)
+        if not os.path.exists(file_path):
+            os.mkdir(file_path)
         result = subprocess.run(f"{os.path.join(data_dir, "UnRAR.exe")} {"x" if to_path else "e"} {"-p" + password if password else ""} {file_path}{" " + to_path if to_path else ""}", capture_output=True, text=True)
         return result.stdout
 
