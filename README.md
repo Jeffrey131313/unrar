@@ -1,5 +1,3 @@
-以下是对你的 `README.md` 进行美化和中英双语的版本：
-
 ---
 
 # Unrar - 自动解压 RAR 压缩包的 Python 库  
