@@ -79,8 +79,8 @@ We welcome Pull Requests or Issues to improve this library!
 ---
 
 ## 支持 / Support  
-如有问题或建议，请在 [Issues](https://github.com/yourusername/unrar/issues) 中反馈。  
-If you have any issues or suggestions, please report them in the [Issues](https://github.com/yourusername/unrar/issues) section.
+如有问题或建议，请在 [Issues](https://github.com/Jeffrey131313/unrar/issues) 中反馈。  
+If you have any issues or suggestions, please report them in the [Issues](https://github.com/Jeffrey131313/unrar/issues) section.
 
 ---
 
